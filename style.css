@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #fff;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#new-task {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#add-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #28a745;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #777;
+    background-color: #e0e0e0;
+}
+
+.actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.actions button:hover {
+    color: red;
+}
+
+/* glowning effect on the input */
+
+@keyframes glowPulse {
+    0% {
+        box-shadow: 0 0 0px #4caf50;
+    }
+
+    50% {
+        box-shadow: 0 0 10px #4caf50;
+    }
+
+    100% {
+        box-shadow: 0 0 0px #4caf50;
+    }
+}
+
+.glow {
+    animation: glowPulse 0.6s ease-in-out;
+}
