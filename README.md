@@ -1,7 +1,18 @@
-# task2-to-do-list
-A simple do-to-list web app
+# Task 2: To-Do List Web App
 
-Topic :- Build a To-Do List Web App (Front-end only, using Vanilla JavaScript)
-Objective: Create a dynamic To-Do list where users can add, remove, and mark tasks complete.
-Tools: VS Code, Chrome Browser, live-server.
-Deliverables:  HTML, CSS, JS files for a functional To-Do app.
+A simple, responsive To-Do List application built using **Vanilla JavaScript**, **HTML**, and **CSS**. This project demonstrates dynamic DOM manipulation and event handling to create an interactive task manager — no frameworks, no libraries, just pure front-end logic.
+
+# Objective
+
+Build a functional To-Do List where users can:
+- ➕ Add new tasks
+- ✅ Mark tasks as complete
+- ❌ Remove tasks from the list
+
+All interactions are handled client-side, with tasks stored in memory (no backend or database).
+
+# Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Arin-Yadav/To-do-list.git
